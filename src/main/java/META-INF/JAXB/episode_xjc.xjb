@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.09.30 a las 10:48:41 AM PET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/objects">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.objects"/>
+    </schemaBindings>
+    <bindings scd="tns:getPacientesRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetPacientesRequest"/>
+    </bindings>
+    <bindings scd="tns:getPacientesResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetPacientesResponse"/>
+    </bindings>
+    <bindings scd="~tns:pacientews">
+      <class ref="pe.edu.cibertec.ws.objects.Pacientews"/>
+    </bindings>
+    <bindings scd="tns:getPacienteRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetPacienteRequest"/>
+    </bindings>
+    <bindings scd="tns:getPacienteResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetPacienteResponse"/>
+    </bindings>
+    <bindings scd="tns:postPacienteRequest">
+      <class ref="pe.edu.cibertec.ws.objects.PostPacienteRequest"/>
+    </bindings>
+    <bindings scd="tns:postPacienteResponse">
+      <class ref="pe.edu.cibertec.ws.objects.PostPacienteResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
